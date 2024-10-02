@@ -68,6 +68,10 @@ This project is a web scraping and data analysis system designed to extract, sto
        ```bash
        python graph.py
        ```
+       How the graph should look like:
+       
+![изображение](https://github.com/user-attachments/assets/ac270054-8bbe-4128-a410-0f8b276cf297)
+
 
 5. **`category_graph.py`** (Books per Category Visualization)
    - This script creates a bar chart that shows the number of books in each category.
@@ -80,6 +84,9 @@ This project is a web scraping and data analysis system designed to extract, sto
        ```bash
        python category_graph.py
        ```
+       How the graph should look like:
+       
+![изображение](https://github.com/user-attachments/assets/aa08717d-25cc-4c84-8df7-c97063e769b6)
 
 ---
 

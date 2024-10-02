@@ -1,6 +1,9 @@
 ### Web Scraping and Database Manipulation
-course: Big Data BPINFOR-82
+
+course: Big Data BPINFOR-82 
+
 Angelina Naliuka 024712312B
+
 Sofiia Parkhomets 024712322C
 
 #### Overview:
@@ -21,7 +24,11 @@ This project is a web scraping and data analysis system designed to extract, sto
    - **Usage**: 
      - Run the spider with:
        ```bash
-       (python -m) scrapy crawl book_spider.py
+       scrapy crawl book_spider.py
+       ```
+       or:
+       ```bash
+       python -m scrapy crawl book_spider.py
        ```
 
 2. **`create_db.py`** (Database Creation)
@@ -42,6 +49,7 @@ This project is a web scraping and data analysis system designed to extract, sto
      - When the spider processes each book item, the pipeline inserts the item into the `books` table of the `books_db` database.
      - It uses the MySQL `pymysql` library to execute SQL `INSERT` commands.
    - **Usage**:
+     - Don't forget to change host, user and password to your own.
      - Ensure the pipeline is enabled in Scrapy's settings (`settings.py`):
        ```python
        ITEM_PIPELINES = {
@@ -79,7 +87,7 @@ This project is a web scraping and data analysis system designed to extract, sto
 
 - **Python environment**
 - **MySQL Server** 
-- Python Libraries:
+- **Python Libraries:**
   - `Scrapy`: For web scraping.
   - `pymysql`: For connecting to the MySQL database.
   - `pandas`: For data manipulation.

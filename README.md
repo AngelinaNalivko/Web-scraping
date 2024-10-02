@@ -90,6 +90,24 @@ This project is a web scraping and data analysis system designed to extract, sto
 
 ---
 
+#### Database Scheme:
+  ```bash
+  CREATE DATABASE books_db;
+  USE books_db;
+
+CREATE TABLE books (
+    category VARCHAR(255),
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255),
+    price FLOAT,
+    image_url TEXT,
+    stock VARCHAR(255)
+);
+
+  ```
+
+---
+
 #### System Requirements:
 
 - **Python environment**

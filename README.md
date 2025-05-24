@@ -4,8 +4,6 @@ course: Big Data BPINFOR-82
 
 Angelina Naliuka 024712312B
 
-Sofiia Parkhomets 024712322C
-
 #### Overview:
 This project is a web scraping and data analysis system designed to extract, store, and visualize data about books from the website [Books to Scrape](http://books.toscrape.com). The project uses the Scrapy framework to scrape book data, stores the data in a MySQL database, and provides tools to visualize and analyze the data. Key features include:
 - Scraping book information from multiple categories.
